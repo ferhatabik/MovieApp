@@ -3,10 +3,10 @@
 
 /* Kök (root) elementi için özel CSS değişkenlerini tanımlıyoruz */
 :root{
-    --md-dark-color: #1d1d1d; /* Orta karanlık renk */
-    --dark-color: #171717;   /* Daha koyu renk */
-    --light-dark-color: #292929; /* Daha açık koyu renk */
-    --red-color: #d41111;  /* Sarı renk */
+    --md-dark-color: #1d1d1d;
+    --dark-color: #171717;   
+    --light-dark-color: #292929; 
+    --red-color: #d41111;  
 }
 
 /* Temel stil sıfırlamaları */
@@ -35,15 +35,15 @@ img{
 
 /* Sayfa içeriği için ana sarmalayıcı (wrapper) */
 .wrapper{
-    min-height: 100vh; /* En az pencere yüksekliği kadar olan bir yükseklik ayarlıyoruz */
-    background-color: var(--dark-color); /* Arka plan rengi */
+    min-height: 100vh; 
+    background-color: var(--dark-color);
 }
 
 /* Ana sarmalayıcı içeriği için sınırlayıcı (container) */
 .wrapper .container{
-    max-width: 1200px; /* Maksimum genişlik ayarlıyoruz */
-    margin: 0 auto; /* İçeriği yatayda ortalamak için */
-    padding: 0 1rem; /* İçerik etrafına bir kenar boşluğu ekliyoruz */
+    max-width: 1200px; 
+    margin: 0 auto; 
+     padding: 0 1rem; 
 }
 
 /* Arama kutusu için stil ayarları */
@@ -69,9 +69,9 @@ img{
 
 /* Logo metni stil ayarları */
 .logo p{
-    font-size: 2rem; /* Yazı boyutu */
-    color: #fff; /* Yazı rengi */
-    font-weight: bold; /* Kalınlık */
+    font-size: 2rem;
+    color: #fff; 
+    font-weight: bold;
 }
 
 /* Logo içindeki span elementine özel stil ayarları */
